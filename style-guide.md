@@ -33,24 +33,24 @@
 
 #### Classes   
 - Use UpperCase letter to mark each word in a class name.  
-  class CacheList {…}  
-* Member Variables  
+>  class CacheList {…}  
+###### Member Variables  
 - Use the underscore prefix format to declare class member variables.  
-  int _dataMember;    
+>  int _dataMember;    
   
 ### indentation    
-* Tabs and spacing
+##### Tabs and spacing
   - Tabs should consistently be represented by 4 spaces.   
   - Each block of code requires a tabbed indentation.  
-  void function (....){  
-    for(....){  
-      if(....){  
-        switch(...){  
-
-        }  
-      }  
-    }  
-  }  
+>  'void function (....){  
+>    for(....){  
+>      if(....){  
+>        switch(...){  
+>
+>        }  
+>      }  
+>    }  
+>  }'  
   
 ### Brackets  
 - Use end of line style brackets for bracketed blocks.
