@@ -18,10 +18,10 @@
 * Avoid redundant comments.
     - It is not necessary to comment every operation in the code.  
     - Focus on the unstated and high-level intention and avoid commenting straightforward behaviour.   
-    >   for(int i=0;i<10;i++){        //this is a for loop, it runs 10 times  
-         >&nbsp;&nbsp;&nbsp;&nbsp;       x = x+1;             //add 1 to x  
-         >&nbsp;&nbsp;&nbsp;&nbsp;       y = y-1;             //subtract 1 from y  
->   }   
+>  for(int i=0;i<10;i++){  &nbsp;&nbsp;&nbsp;&nbsp; //this is a for loop, it runs 10 times  
+>&nbsp;&nbsp;&nbsp;&nbsp;       x = x+1;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  //add 1 to x  
+>&nbsp;&nbsp;&nbsp;&nbsp;       y = y-1;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  //subtract 1 from y  
+>  }   
     
 ### Naming conventions   
 #### Functions and Variables   
