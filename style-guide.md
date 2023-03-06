@@ -4,15 +4,15 @@
 
 ### Comments  
 * State intentions  
-// Function accepts an integer and calculate's the n'th fibonacci value in the fibonacci sequence.
-// Returns  calculated integer.
-  int fibonacci(int n);
+> // Function accepts an integer and calculate's the n'th fibonacci value in the fibonacci sequence.
+> // Returns  calculated integer.
+>        int fibonacci(int n);  
 * State input, output and high-level functionality  
-// Function inserts a new node with templated data into the list before the node referred to by loc.  
-// Returns iterator to the newly inserted node.  
-// Receives constant reference to node data, iterator to the insertion location.  
-// loc is permitted to be start() or end().  
-  Iterator insertNode(iterator loc, const T& data);  
+> // Function inserts a new node with templated data into the list before the node referred to by loc.  
+> // Returns iterator to the newly inserted node.  
+> // Receives constant reference to node data, iterator to the insertion location.  
+> // loc is permitted to be start() or end().  
+>  iterator insertNode(iterator loc, const T& data);  
 * Identify unstated details not included in name; e.g. unit of measurement  
   double rectangleHeight; // the height of the rectangle in cm  
 * Avoid redundant comments
