@@ -42,7 +42,8 @@
 ##### Tabs and spacing
   - Tabs should consistently be represented by 4 spaces.   
   - Each block of code requires a tabbed indentation.  
-'void function (....){  
+```
+void function (....){  
     for(....){  
       if(....){  
         switch(...){  
@@ -50,13 +51,16 @@
         }  
       }  
     }  
-}'  
+}
+```
   
 ### Brackets  
 - Use end of line style brackets for bracketed blocks.
->for(...){  
->newNumber += 1;  
->}  
+'''    
+for(...){   
+newNumber += 1;   
+}  
+'''    
 - Exceptions can be made for arrow notation of functions and brief function notation but should be avoided in order to maintain code readability.  
   
 ## Code Structure and Organization  
