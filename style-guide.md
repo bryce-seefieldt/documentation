@@ -1,5 +1,3 @@
-#Style Guide  
-
 ## Style and Documentation  
 
 ### Comments  
