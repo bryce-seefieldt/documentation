@@ -18,7 +18,8 @@ int fibonacci(int n);
 iterator insertNode(iterator loc, const T& data);  
 ```
 * Identify unstated details not included in name; e.g. unit of measurement  
-``` double rectangleHeight;     // the height of the rectangle in cm  ```
+``` double rectangleHeight;     // the height of the rectangle in cm  ```  
+  
 * Avoid redundant comments.
     - It is not necessary to comment every operation in the code.  
     - Focus on the unstated and high-level intention and avoid commenting straightforward behaviour.   
