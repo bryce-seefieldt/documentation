@@ -70,7 +70,7 @@ for(...){
 ```    
 - Exceptions can be made for arrow notation of functions and brief function notation but should be avoided in order to maintain code readability.  
   
-## Code Structure and Organization  
+### Code Structure and Organization  
 -	Use meaningful and descriptive file names for source code files.  
 -	Group related functions and classes in the same file.  
 -	Separate code blocks with blank lines to improve readability.  
