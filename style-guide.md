@@ -18,15 +18,15 @@ int fibonacci(int n);
 iterator insertNode(iterator loc, const T& data);  
 ```
 * Identify unstated details not included in name; e.g. unit of measurement  
-``` double rectangleHeight; // the height of the rectangle in cm  ```
+``` double rectangleHeight;     // the height of the rectangle in cm  ```
 * Avoid redundant comments.
     - It is not necessary to comment every operation in the code.  
     - Focus on the unstated and high-level intention and avoid commenting straightforward behaviour.   
 ```
 // Example of redundant comments
 for(int i=0;i<10;i++){       //this is a for loop, it runs 10 times  
-x = x+1;        //add 1 to x  
-y = y-1;        //subtract 1 from y  
+    x = x+1;        //add 1 to x  
+    y = y-1;        //subtract 1 from y  
 }
 ```  
     
@@ -55,7 +55,7 @@ void function (....){
     for(....){  
       if(....){  
         switch(...){  
-...
+            ...
         }  
       }  
     }  
@@ -64,11 +64,11 @@ void function (....){
   
 ### Brackets  
 - Use end of line style brackets for bracketed blocks.
-'''    
+```
 for(...){   
-newNumber += 1;   
+    newNumber += 1;   
 }  
-'''    
+```    
 - Exceptions can be made for arrow notation of functions and brief function notation but should be avoided in order to maintain code readability.  
   
 ## Code Structure and Organization  
