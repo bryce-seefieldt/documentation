@@ -4,24 +4,31 @@
 
 ### Comments  
 * State intentions  
-> // Function accepts an integer and calculate's the n'th fibonacci value in the fibonacci sequence.  
-> // Returns  calculated integer.  
->        int fibonacci(int n);    
+```
+// Function accepts an integer and calculate's the n'th fibonacci value in the fibonacci sequence.  
+// Returns  calculated integer.  
+int fibonacci(int n);    
+```
 * State input, output and high-level functionality  
-> // Function inserts a new node with templated data into the list before the node referred to by loc.  
-> // Returns iterator to the newly inserted node.  
-> // Receives constant reference to node data, iterator to the insertion location.  
-> // loc is permitted to be start() or end().  
->  iterator insertNode(iterator loc, const T& data);  
+```
+// Function inserts a new node with templated data into the list before the node referred to by loc.  
+// Returns iterator to the newly inserted node.  
+// Receives constant reference to node data, iterator to the insertion location.  
+// loc is permitted to be start() or end().  
+iterator insertNode(iterator loc, const T& data);  
+```
 * Identify unstated details not included in name; e.g. unit of measurement  
->  double rectangleHeight; // the height of the rectangle in cm  
+``` double rectangleHeight; // the height of the rectangle in cm  ```
 * Avoid redundant comments.
     - It is not necessary to comment every operation in the code.  
     - Focus on the unstated and high-level intention and avoid commenting straightforward behaviour.   
->  for(int i=0;i<10;i++){  &nbsp;&nbsp;&nbsp;&nbsp; //this is a for loop, it runs 10 times  
->&nbsp;&nbsp;&nbsp;&nbsp;       x = x+1;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  //add 1 to x  
->&nbsp;&nbsp;&nbsp;&nbsp;       y = y-1;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  //subtract 1 from y  
->  }   
+```
+// Example of redundant comments
+for(int i=0;i<10;i++){       //this is a for loop, it runs 10 times  
+x = x+1;        //add 1 to x  
+y = y-1;        //subtract 1 from y  
+}
+```  
     
 ### Naming conventions   
 #### Functions and Variables   
@@ -33,10 +40,11 @@
 
 #### Classes   
 - Use UpperCase letter to mark each word in a class name.  
->  class CacheList {…}  
+``` class CacheList {…} ```  
+  
 ###### Member Variables  
 - Use the underscore suffix format to declare class member variables.  
->  int dataMember_;    
+``` int dataMember_; ```    
   
 ### indentation    
 ##### Tabs and spacing
