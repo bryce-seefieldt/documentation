@@ -24,9 +24,9 @@ iterator insertNode(iterator loc, const T& data);
     - Focus on the unstated and high-level intention and avoid commenting straightforward behaviour.   
 ```
 // Example of redundant comments
-for(int i=0;i<10;i++){       //this is a for loop, it runs 10 times  
-    x = x+1;        //add 1 to x  
-    y = y-1;        //subtract 1 from y  
+for(int i=0;i<10;i++){       //This is a for loop, it runs 10 times  
+    x = x+1;        //Add 1 to x  
+    y = y-1;        //Subtract 1 from y  
 }
 ```  
     
@@ -40,7 +40,7 @@ for(int i=0;i<10;i++){       //this is a for loop, it runs 10 times
 
 #### Classes   
 - Use UpperCase letter to mark each word in a class name.  
-``` class CacheList {…} ```  
+``` class CacheList {…}; ```  
   
 ###### Member Variables  
 - Use the underscore suffix format to declare class member variables.  
@@ -53,11 +53,11 @@ for(int i=0;i<10;i++){       //this is a for loop, it runs 10 times
 ```
 void function (....){  
     for(....){  
-      if(....){  
-        switch(...){  
-            ...
+        if(....){  
+            switch(...){  
+                ...
+            }  
         }  
-      }  
     }  
 }
 ```
@@ -104,7 +104,8 @@ for(...){
 - Continuously refactor code to improve its quality and maintainability.  
   
 #### SOLID Principles  
-**Single Responsibility Principle (SRP):** A class should have only one responsibility. If a class has more than one responsibility, it becomes harder to change and maintain, and it can also lead to dependencies between different parts of the code.
+**Single Responsibility Principle (SRP):** A class should have only one responsibility. If a class has more than one responsibility, it becomes harder to change and maintain, and it can also lead to dependencies between different parts of the code.  
+  
 **Open-Closed Principle (OCP):** A class should be open for extension but closed for modification. You should be able to extend the behavior of a class without modifying its code. Achieved by using inheritance, composition, or other techniques to add new functionality without changing existing code.  
   
 **Liskov Substitution Principle (LSP):** Subtypes must be substitutable for their base types. This means that any subclass or derived class should be able to be used in place of its parent class without causing errors or unexpected behavior. Closely related to inheritance and polymorphism principles.  
