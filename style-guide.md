@@ -35,28 +35,28 @@
 - Use UpperCase letter to mark each word in a class name.  
 >  class CacheList {…}  
 ###### Member Variables  
-- Use the underscore prefix format to declare class member variables.  
->  int _dataMember;    
+- Use the underscore suffix format to declare class member variables.  
+>  int dataMember_;    
   
 ### indentation    
 ##### Tabs and spacing
   - Tabs should consistently be represented by 4 spaces.   
   - Each block of code requires a tabbed indentation.  
->  'void function (....){  
->    for(....){  
->      if(....){  
->        switch(...){  
->
->        }  
->      }  
->    }  
->  }'  
+'void function (....){  
+    for(....){  
+      if(....){  
+        switch(...){  
+...
+        }  
+      }  
+    }  
+}'  
   
 ### Brackets  
 - Use end of line style brackets for bracketed blocks.
-   for(...){  
-      newNumber += 1;  
-    }  
+>for(...){  
+>newNumber += 1;  
+>}  
 - Exceptions can be made for arrow notation of functions and brief function notation but should be avoided in order to maintain code readability.  
   
 ## Code Structure and Organization  
@@ -79,11 +79,11 @@
   
 ### Version Control  
 - Use version control software to track changes to the codebase.  
-
+  
 **GitHub**  
 - Create working branches to make any changes to main branch code.  
 - Once changes are committed to working branch create Pull Request to be reviewed prior to merging to main.  
-
+  
 ### Best Practices for Design  
 - Follow the SOLID principles of software development.  
 - Use design patterns where appropriate.  
